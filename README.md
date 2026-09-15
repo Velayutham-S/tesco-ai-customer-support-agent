@@ -158,5 +158,3 @@ mode               : mock
 - Broaden/curate intent keyword rules and confidence calibration.
 
 ---
-Reports for each phase are in `reports/` (dataset profile, brand selection, corpus, intents, golden set,
-retrieval, generation, agent workflow, and this phase's evaluation + final report).
