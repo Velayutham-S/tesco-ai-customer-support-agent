@@ -1,0 +1,226 @@
+# ============================================================
+# Secrets and environment files
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.key
+*.pem
+secrets/
+credentials/
+
+
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.pyo
+*.pyd
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.ruff_cache/
+
+
+# ============================================================
+# Virtual environments
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+
+# ============================================================
+# Dataset and generated data
+# ============================================================
+
+# Original Twitter Customer Support dataset
+dataset/twcs/twcs.csv
+
+# Raw and input data
+data/raw/
+data/input/
+
+# Generated processed data
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.json
+
+# Retrieval index and vector files
+data/retrieval/*.pkl
+data/retrieval/*.pickle
+data/retrieval/*.npy
+data/retrieval/*.npz
+data/retrieval/*.joblib
+data/retrieval/*.index
+data/retrieval/*.json
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large data files
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+
+# Keep documentation files
+!data/**/README.md
+!data/**/*.md
+
+
+# ============================================================
+# Reports
+# ============================================================
+
+# Do not commit the reports folder
+reports/
+
+
+# ============================================================
+# Logs and temporary files
+# ============================================================
+
+*.log
+*_run.txt
+*_output.txt
+*_result.txt
+
+tmp/
+tmp*/
+_tmp/
+_tmp*/
+temp/
+temp*/
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+
+# ============================================================
+# IDE and editor files
+# ============================================================
+
+.vscode/
+.idea/
+*.iml
+
+# Kiro IDE files
+.kiro/
+
+# Keep Kiro steering files if used
+!.kiro/steering/
+!.kiro/steering/**
+
+
+# ============================================================
+# Operating system files
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+
+# ============================================================
+# Node.js files
+# ============================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.yarn/
+.pnpm-store/
+
+.next/
+.nuxt/
+.cache/
+
+
+# ============================================================
+# Test and coverage files
+# ============================================================
+
+test-results/
+playwright-report/
+blob-report/
+coverage.xml
+coverage.json
+
+
+# ============================================================
+# Miscellaneous
+# ============================================================
+
+*.orig
+*.rej
+*.pid
+*.seed
+*.pid.lock
